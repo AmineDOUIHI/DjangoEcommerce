@@ -1,0 +1,2 @@
+# DjangoEcommerce
+django ecomm project
