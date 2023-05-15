@@ -1,0 +1,40 @@
+<style>
+	.blockquote-center {
+	  text-align: center;
+	  padding-top: 100px;
+	  font-family: Arial, sans-serif;
+	}
+  
+	.mb-0 {
+	  margin-bottom: 0;
+	}
+  
+	.mb-2 {
+	  margin-bottom: 2rem;
+	}
+  
+	.btn-secondary {
+	  background-color: #6c757d;
+	  color: #fff;
+	  border-color: #6c757d;
+	  padding: 0.5rem 1rem;
+	  text-decoration: none;
+	  border-radius: 0.25rem;
+	  font-size: 1rem;
+	  display: inline-block;
+	  transition: background-color 0.3s ease;
+	}
+  
+	.btn-secondary:hover {
+	  background-color: #5a6268;
+	  border-color: #545b62;
+	}
+  </style>
+  
+  <blockquote class="blockquote-center">
+	<h1><p class="mb-0">** Payment Successful **</p></h1>
+	<h4><p>Go Back! Check your orders</p></h4>
+	<br>
+	<a href="{% url 'order_details' %}" class="btn btn-secondary mb-2">View Order</a>
+  </blockquote>
+  
