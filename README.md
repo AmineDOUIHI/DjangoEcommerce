@@ -1,58 +1,24 @@
 # Ecommerce-Website
+Description: The project aims to develop an eCommerce website using the Django framework. It has both frontend and backend functionalities to provide users with an engaging shopping experience. The website includes features such as a user-friendly interface, product catalog, shopping cart, and seamless checkout process.
 
-## Setup
-1. pip install -r requirements.txt
-2. cd Qoura-clone
-3. python manage.py makemigrations
-4. python manage.py migrate
-5. python manage.py runserver
-6. Access admin panel by creating superuser :->  python manage.py createsuperuser
+Features:
 
-### SignUp Page :
-<p>-- User have to register to purchase items.</p>
-<p>-- Email Verificaton Feature.</p>
-<img src="/image_readme/register.png">
+User Interface: The website will have a visually appealing and intuitive user interface designed using Bootstrap and CSS. This will ensure a responsive and engaging experience for users across different devices.
 
-### Login Page :
-<p>-- User can login by entering his/her username and password.</p>
-<p>-- Social Authentication Feature</p>
-<p>-- Forgot Password Feature </p>
-<img src="/image_readme/login.png">
+Product Catalog: The website will showcase a catalog of products with details such as product name, description, price, and images. Users can browse through the catalog and view product details.
 
-### Profile Page :
-<img src="/image_readme/profile.png">
+Add to Cart: Users will be able to add products to their shopping cart. The cart will display the selected products, quantities, and total price. Users can easily manage and update their cart contents.
 
-### Edit Profile Page :
-<p>-- User can edit his profile</p>
-<img src="/image_readme/edit profile.png">
+Checkout Capabilities: The website will provide a streamlined checkout process where users can enter their shipping details, select a payment method, and place their order. Integration with PayPal will allow secure payment transactions.
 
-### Ecommerce Front Page:
-<p>-- Category wise items is shown</p>
-<p>-- Search Button Feature</p>
-<img src="/image_readme/store.png">
+Technologies:
 
-### Products Page :
-<p>-- Products of a particular category are shown</p>
-<p>-- Add To Cart feature</p>
-<img src="/image_readme/items.png">
+Django (Backend): Django, a Python web framework, will be used to develop the backend of the eCommerce website. It provides robust features for handling data models, routing, authentication, and database operations.
 
-### Cart Page :
-<p>-- Items in the cart are shown.</p>
-<p>-- User can change the quantity of each of the cart products.</p>
-<img src="/image_readme/cart.png">
+Bootstrap (Frontend): Bootstrap is a popular frontend framework that offers a responsive grid system and pre-built CSS components. It will be used to create a visually appealing and mobile-friendly user interface.
 
-### Checkout Page:
-<p>-- Final Order summary is shown</p>
-<p>-- New Address Feature</p>
-<p>-- Edit Delete or Use of stored address Feature</p>
-<img src="/image_readme/checkout.png">
-<img src="/image_readme/address.png">
+CSS (Frontend): Cascading Style Sheets (CSS) will be utilized to enhance the website's appearance, customize the layout, and add visual effects.
 
-### Payment Successful Page :
-<p>-- Payment Gateway Feature (Not Integrated as it's not in production)</p>
-<img src="/image_readme/payment.png">
+JavaScript (Client-Side): JavaScript will be used to implement interactive features on the client-side, such as dynamic product filtering, real-time updates, and user input validation.
 
-### Orders page :
-<p>-- Details of the orders</p>
-<p>-- Track your order (Not Integrated as it's not in production)</p>
-<img src="/image_readme/orders.png">
+By combining the power of Django, Bootstrap, CSS, JavaScript, and PayPal integration, this eCommerce website project delivers a visually appealing and user-friendly platform for online shopping.
